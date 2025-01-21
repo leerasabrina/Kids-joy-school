@@ -18,23 +18,17 @@ header {
     margin: 0 auto;
 }
 
-@keyframes heading {
-    from {
-        transform: translateX(100%);
-    }
 
-    to {
-        transform: translateX(-100%);
-    }
+body,html{
+    overflow-x: hidden;
 }
-
-
 
 
 .headline {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     white-space: nowrap;
+   position: absolute;
     animation: heading 15s linear 0.5s infinite forwards;
 }
 
@@ -42,6 +36,11 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+.flex-a{
+    display: flex;
+    gap: 20px;
+    align-items: center; 
 }
 
 .center {
@@ -387,7 +386,9 @@ footer{
     header{
         padding: 5px;
     }
-    
+    .flex-a{
+        flex-direction: column-reverse;
+    }
     .grid{
         padding: 5px 5px;
     }
@@ -407,6 +408,7 @@ footer{
     #navbar {
         flex-direction: row;
         justify-content: space-between;
+        border-bottom: 3px solid orange;
     }
     .mid{
         margin-right: 0px;
@@ -415,7 +417,11 @@ footer{
         text-align: center;
     }
     
-
+    .h1-2{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size:2rem ;
+    }
     .parent1 {
         width: 100%;
     }
