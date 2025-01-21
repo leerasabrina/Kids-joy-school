@@ -389,6 +389,9 @@ footer{
     .flex-a{
         flex-direction: column-reverse;
     }
+    .card-para{
+        margin-top: 50px;
+    }
     .grid{
         padding: 5px 5px;
     }
