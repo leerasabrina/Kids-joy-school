@@ -98,6 +98,10 @@ a {
     background-color: orange;
     color: white;
     font-size: 2rem;
+   
+}
+.circle:hover{
+    background-color:var(--secondary-color);
 }
 .arrow{
     margin-left: 650px;
@@ -109,6 +113,13 @@ a {
     border: none;
     font-size: 1rem;
     background-color: white;
+    transition: transform 1s ease-out;
+}
+.cmn-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(129, 223, 201);
+    color: black;
+    border-radius: 10px;
 }
 
 .color-btn {
@@ -270,6 +281,12 @@ a {
     bottom: 35px;
     /* left: 80px; */
 }
+
+
+.btn:hover{
+    background-color: rgb(118, 198, 219);
+    color: black;
+}
 .gallery{
     background: linear-gradient(0.00deg, rgba(221, 179, 56, 0.3),rgba(244, 243, 240, 0.3) 100%),url("assets/bg.png");
 }
@@ -335,6 +352,13 @@ footer{
 }
 .div-1{
     width: 400px;
+}
+.hover{
+    transition: transform 0.1s ease-out;
+}
+.hover:hover{
+    transform: scale(1.2);
+    background-color: beige;
 }
 
 
@@ -466,6 +490,7 @@ footer{
         width: 7.5rem;
         margin-left: 10px;
     }
+    
     .story-btn{
         margin-top:10px;
         margin-left:130px;
