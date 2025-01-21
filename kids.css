@@ -34,7 +34,7 @@ body,html{
 
 .flex {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 .flex-a{
@@ -50,6 +50,9 @@ body,html{
 .nav-bar {
     justify-content: space-between;
     
+}
+#gap{
+    gap: 20px;
 }
 .mid{
     margin-right: 200px;
@@ -90,8 +93,8 @@ a {
     color: white;
 }
 .circle{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border: none;
     border-radius: 50%;
     background-color: orange;
@@ -112,14 +115,8 @@ a {
     border: none;
     font-size: 1rem;
     background-color: white;
-    transition: transform 1s ease-out;
 }
-.cmn-btn:hover{
-    transform: scale(1.2);
-    background-color: rgb(129, 223, 201);
-    color: black;
-    border-radius: 10px;
-}
+
 
 .color-btn {
     background-color: var(--primary-color);
