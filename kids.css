@@ -380,11 +380,12 @@ footer{
     *{
         margin: 0px;
     }
-    header{
+    /* header{
         padding: 5px;
-    }
+    } */
     .flex-a{
         flex-direction: column-reverse;
+        padding: 5px;
     }
     .card-para{
         margin-top: 50px;
@@ -408,7 +409,7 @@ footer{
     #navbar {
         flex-direction: row;
         justify-content: space-between;
-        border: 3px solid orange;
+        border-bottom: 3px solid orange;
     }
     .mid{
         margin-right: 0px;
