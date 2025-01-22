@@ -491,7 +491,12 @@ footer {
     .card {
         width: 100%;
     }
-
+   .marg{
+    margin-top: 0px;
+   }
+   .marg2{
+    margin-top: 5px;
+   }
     .center3 {
         margin: 0px;
     }
